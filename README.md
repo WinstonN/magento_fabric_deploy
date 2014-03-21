@@ -30,6 +30,7 @@ Installation Instructions
 
 Web root directory structure
 ----------------------------
+<pre>
 /var/
     └── www
         ├──domain.com
@@ -46,6 +47,7 @@ Web root directory structure
             │   ├── media
             │   └── var
             └── web -> /var/www/domain.com/releases/20140321-1133
+</pre>
 
 Examples
 --------
