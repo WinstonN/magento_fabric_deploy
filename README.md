@@ -28,6 +28,25 @@ Installation Instructions
 2. Download and configure the fabfile.py with your settings
 3. run fab -A -R [role/host] [command]
 
+Web root directory structure
+----------------------------
+/var/
+    └── www
+        ├──domain.com
+            ├── db
+            ├── releases
+            │   ├── 20140320-2057
+            │   ├── 20140320-2200
+            │   ├── 20140321-1056
+            │   ├── 20140321-1127
+            │   └── 20140321-1133
+            ├── repo
+            ├── shared
+            ├── shared
+            │   ├── media
+            │   └── var
+            └── web -> /var/www/domain.com/releases/20140321-1133
+
 Examples
 --------
 fab -A -R [role,host] [command]
@@ -55,8 +74,6 @@ Available commands
     setup
     show_databases
     symlink
-
-
 
 Support
 -------
