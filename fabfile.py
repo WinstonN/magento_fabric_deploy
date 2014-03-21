@@ -39,7 +39,6 @@ env.roledefs = {
     #'stage': ['host1', 'host2'], #TODO Add Stage environment
     #'qa': ['host1', 'host2'], #TODO Add QA environment
     #'prod': [
-    #    #user+'@hostname.'+domain,
     #    sshuser + '@hostname' + domain,
     #    sshuser + '@hostname' + domain,
     #    sshuser + '@hostname' + domain,
@@ -57,7 +56,6 @@ env.roledefs = {
 env.roles = ['dev']
 
 def report():
-
     """
     # report
     # report makes the roles give feedback with their kernels
@@ -74,7 +72,6 @@ def check():
 
 
 def migrate():
-
     """
     # migrate
     # this method migrates the current setup over to our folder structure

@@ -24,7 +24,7 @@ This fabric deploy script has the ability to
 
 Installation Instructions
 -------------------------
-1. Install fabric on your laptop or local machine on ubuntu so : sudo apt-get install fabric
+1. Install fabric on your laptop or local machine on ubuntu : sudo apt-get install fabric
 2. Download and configure the fabfile.py with your settings
 3. run fab -A -R [role/host] [command]
 
@@ -78,7 +78,7 @@ Available commands
 
 Support
 -------
-If you have any issues with this extension, open an issue on GitHub (see URL above)
+If you have any issues with this code, open an issue on GitHub (see URL above)
 
 Contribution
 ------------
