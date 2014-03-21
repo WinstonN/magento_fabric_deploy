@@ -43,7 +43,6 @@ Web root directory structure
             │   └── 20140321-1133
             ├── repo
             ├── shared
-            ├── shared
             │   ├── media
             │   └── var
             └── web -> /var/www/domain.com/releases/20140321-1133
