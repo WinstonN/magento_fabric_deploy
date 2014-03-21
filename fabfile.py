@@ -81,7 +81,7 @@ def migrate():
     with settings(warn_only=True):
         with hide('stdout', 'stderr', 'warnings'):
             # move media out of the original web folder into our shared folder
-            print('%s move media to shared folder', notice_prefix)
+            print '%s move media to shared folder' % notice_prefix
             if run("test -d %s" % web_folder + '/media').failed:
                 print '%s %s/media does not exist' % (notice_prefix, web_folder)
             else:
